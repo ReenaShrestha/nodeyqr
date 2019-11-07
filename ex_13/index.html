@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Create User</title>
+</head>
+<body>
+    <h1>Create User</h1>
+    <hr>
+    <form action="create_user.html" method="get" enctype="application/x-www-form-urlencoded'" ></form>
+    <fieldset>
+    
+    <label>Name:</label>
+     <input type name="name" placeholder="name">
+
+    <select name="options">
+            <option value="deadpool">Deadpool</option>
+            <option value="civilwar">Captain Americal</option>
+            <option value="wonder-woman" selected>Wonder Woman</option>
+      </select>
+      <label>Bio:</label>
+      <textarea name="Bio" placeholder="Please write the bio"cols="17" rows="1"></textarea>
+       <form action="upload.php" method="post" enctype="multipart/form-data">
+  <input type="file" name="Avatar image" />
+  <button name="button">Clear form</button>
+  <button name="button">Add new user</button>
+</form> 
+</body>
+</html>
